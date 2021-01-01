@@ -1,6 +1,7 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
-  background-color: #e9ecef;
+  background-color: #202020;
+  color: #fff;
 }
 
 h1,
@@ -14,7 +15,6 @@ h5 {
 h1 {
   font-size: 2rem;
   font-weight: 400;
-  color: #464646;
 }
 
 h2 {
@@ -31,12 +31,10 @@ p {
   font-size: 1rem;
   font-weight: 300;
   margin: 0;
-  color: #535353;
   line-height: 24px;
 }
 
 a {
-  color: rgb(98, 0, 255);
 }
 
 a:hover {
@@ -70,6 +68,7 @@ a:hover {
   padding: 1rem;
 }
 .jumbotron {
+  background-color: #202020;
   /* margin: 1rem 0 0rem 0; */
 }
 
