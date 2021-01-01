@@ -49,8 +49,28 @@ a:hover {
   color: #131313
 }
 
+.box {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.badge {
+  background-color: #925fff;
+  /* color: #5000ff; */
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem;
+}
 .jumbotron {
-  /* margin: 2rem 0 0rem 0; */
+  /* margin: 1rem 0 0rem 0; */
 }
 
 .jumbotron--large {
@@ -126,6 +146,7 @@ input {
   margin-right: 1rem;
   font-size: 1.5rem;
   white-space: nowrap;
+  margin:0 auto;
 }
 
 .navbar__contact {
